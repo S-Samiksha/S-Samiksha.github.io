@@ -1,6 +1,3 @@
 # S-Samiksha.github.io
 
-I am Samiksha. I am currently a year 1 student studying Computer Science and Economics (double degree) at Nanyang Technological University (Singapore). While I am really interested in the science and technology field, I love to read more about economics as well. This is the reason why I decided to take up a double degree.
-Previously, I studied at Anglo-Chinese School (Independent) and graduated with 44 points out of a maximum possible 45 points. I love challenges. As such, I strive to take part in competitions and programmes that push me beyond my comfort zone and help me grow as a person. To push myself and learn more, I joined the Advanced Science Programme and studied advanced biology and chemistry.
-Recently, I took part in the Shopee Product and Design Challenge. In a pair, we had to come up ideas to improve the Shopee App. The biggest take away from this challenge was the workshops I attended. These workshops were truly an eye opener to see how things work in the UX/UI field. 
-Currently, I am continuing to learn more in the data science field. I am learning how data science can be used to analyze large amounts of data and how python can be used to help in this analysis. 
+I am Samiksha. I am currently a year 1 student studying Computer Science and Economics (double degree) at Nanyang Technological University (Singapore).  THis is an ongoing project to create my own personal website.
