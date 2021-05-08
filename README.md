@@ -7,4 +7,9 @@ Original codes were taken from startbootstrap.com/themes
 The theme was called Agency
 It was then modified to my own personal preferences. 
 
+# Image Sources
+https://www.zedge.net/wallpaper/fcf6b3e2-9a45-4306-9d7a-af89276bc407
+https://www.mdm.com/blog/technology/pandemic-shines-light-on-a-distributors-need-for-e-commerce/
+https://www.123rf.com/stock-photo/cell_division.html
+
 

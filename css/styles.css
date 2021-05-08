@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #2a9df4;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -65,7 +65,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: justify;
   background-color: #fff;
 }
 
@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #fed136;
+  color: #209fda;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #e6b301;
+  color:  #209fda;
   text-decoration: underline;
 }
 
@@ -2443,29 +2443,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color:  #204bda;
+  border-color:  #204bda;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #204bda;
+  border-color: #204bda;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #204bda;
+  border-color: #204bda;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #204bda;
+  border-color: #204bda;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fec503;
-  border-color: #f3bd01;
+  background-color: #204bda;
+  border-color: #204bda;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
@@ -2883,11 +2883,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #fed136;
+  color: #209fda;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #e6b301;
+  color: #209fda;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -3160,7 +3160,7 @@ input[type=button].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #fed136;
+  background-color: #204bda;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -3494,8 +3494,8 @@ input[type=button].btn-block {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #204bda;
+  background-color: #204bda;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
@@ -3505,8 +3505,8 @@ input[type=button].btn-block {
 }
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
-  background-color: #fffae8;
-  border-color: #fffae8;
+  background-color: #204bda;
+  border-color: #204bda;
 }
 .custom-control-input[disabled] ~ .custom-control-label, .custom-control-input:disabled ~ .custom-control-label {
   color: #6c757d;
@@ -3755,7 +3755,7 @@ input[type=button].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #fed136;
+  background-color: #204bda;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3935,7 +3935,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #fed136;
+  background-color: #fff;
 }
 
 .nav-fill > .nav-link,
@@ -4602,13 +4602,13 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #fed136;
+  color: #241571;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 .page-link:hover {
   z-index: 2;
-  color: #e6b301;
+  color: #241571;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4708,7 +4708,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #fed136;
+  background-color: #241571;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
@@ -5068,8 +5068,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #241571;
+  border-color: #241571;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6106,13 +6106,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fed136 !important;
+  background-color: #241571 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #fec503 !important;
+  background-color: #241571 !important;
 }
 
 .bg-secondary {
@@ -9712,6 +9712,12 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+.text-middle{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align:justify;
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
@@ -9805,11 +9811,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #241571 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #e6b301 !important;
+  color: #241571 !important;
 }
 
 .text-secondary {
@@ -10086,11 +10092,11 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #fed136;
+  background-color: #241571;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: white; /* title */
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -10106,7 +10112,7 @@ img::-moz-selection {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #153fd8; /*navigation bar*/
 }
 
 @media (min-width: 992px) {
@@ -10114,7 +10120,7 @@ img::-moz-selection {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: black;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10203,7 +10209,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(13, 85, 219, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10217,17 +10223,18 @@ header.masthead .masthead-heading {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  padding: 1.5rem;
+  padding: 1.0rem;
   text-align: center;
   background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-size: 0.6rem;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -10272,6 +10279,7 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+/*creating a timeline class for the education portion of the website*/
 .timeline {
   position: relative;
   padding: 0;
@@ -10289,8 +10297,8 @@ header.masthead .masthead-heading {
 }
 .timeline > li {
   position: relative;
-  min-height: 50px;
-  margin-bottom: 50px;
+  min-height: 10px;
+  margin-bottom: 10px;
 }
 .timeline > li:after, .timeline > li:before {
   display: table;
@@ -10320,17 +10328,17 @@ header.masthead .masthead-heading {
 }
 .timeline > li .timeline-image {
   position: absolute;
-  z-index: 100;
   left: 0;
-  width: 80px;
-  height: 80px;
+  width: 10px;
+  height: 10px;
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 0px solid #555;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #555;
 }
+
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
@@ -10366,8 +10374,10 @@ header.masthead .masthead-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  text-align: justify;
 }
 
+/*Utilizes bootstrap 4 to change the way the website behaves given different screen measurements, ensures alignment*/
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -10384,9 +10394,9 @@ header.masthead .masthead-heading {
   }
   .timeline > li .timeline-image {
     left: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: -50px;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 13px;
@@ -10407,9 +10417,10 @@ header.masthead .masthead-heading {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
+    width: 10px;
+    height: 10px;
+    margin-left:-5px;
+
   }
   .timeline > li .timeline-image h4 {
     font-size: 18px;
@@ -10422,15 +10433,17 @@ header.masthead .masthead-heading {
 }
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 170px;
+    min-height: 20px;
+    top: -5px;
   }
   .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
+    padding: 0px 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    top: 5px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
@@ -10438,19 +10451,6 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
-}
-.team-member {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-.team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
-.team-member h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
 }
 
 .img-brand {
