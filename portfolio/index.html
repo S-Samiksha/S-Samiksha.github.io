@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="container">
+<div class="row">
+{% for post in site.posts %}
+    <div class="{{post.number}} ">
+        <div class="portfolio-item">
+                <a class="portfolio-link" href="{{post.url}}">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="{{post.image}}" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                    <div class="portfolio-caption-heading">{{post.title}}</div>
+                </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
+</div>

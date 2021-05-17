@@ -1,0 +1,8 @@
+---
+layout: pages
+title:  C++ Project 
+date:   2021-05-17 10:56:20 +0800 
+permalink: "/CPPproject"
+image: /assets/img/portfolio/03-full.jpg
+number: col-lg-4 col-sm-6 mb-4
+---

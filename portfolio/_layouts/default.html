@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -56,18 +56,30 @@
                 <div>
                     <p></p>
                     <p>
-                        I am Samiksha. I am currently a Year 1 Student studying a double degree 
+                        I am Samiksha. I am currently a Year 2 Student studying a double degree 
                         in Computer Science and Economics at Nanyang Technological University(Singapore). 
                     </p>
                     <p>
                         I am a person who loves to push boundaries and take on challenges. As such, I decided to take on a double degree. 
                         I enjoy working with numbers and large amounts of data. I am always curious to analyse such data and derive new information from it. 
-                        Besides working with numbers, I take joy in solving logic problems and using computer programming to solve such problems.  
+                        Besides working with numbers, I take joy in solving logic problems and using programming to solve such problems.  
                     </p>
                     <p>
                         This portfolio features the projects I have done. 
                         The articles provide an overview of what the project is and what I have learnt from it. 
                         While doing these projects, I have picked up many skills.
+                    </p>
+                    <p>
+                        This website was built in May 2021. Posts here are updated accordingly. This website is built using HTML, CSS,
+                        JavaScript, Bootstrap, Jekyll and Github Pages.
+                    </p>
+                    <p>
+                        Here are the programming languages I have learnt so far:
+                        <ul>
+                            <li>Python: Seaborn, Turtle, MatplotLib, Numpy, Sci-Kit Learn, Pandas</li>
+                            <li>C Programming</li>
+                            <li>HTML, CSS, Jekyll, Microsoft Axure, UXpin </li>
+                        </ul>
                     </p>
                 </div>
             </div>
@@ -78,37 +90,7 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
                 </div>
-                
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" href="./DSAIProj.html">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/01-full.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Data Science in Predicting Consumer Satisfaction</div>
-                                <div class="portfolio-caption-subheading text-muted">Submitted to Nanyang Technological University in 2021</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" href="./BiologyEE.html">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/02-full.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Neem, Hydrogen Peroxide and its effects on Mitotic Division</div>
-                                <div class="portfolio-caption-subheading text-muted">A biology Extended Essay Submitted to International Baccalaurate Organization in 2019</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {{content}}
             </div>
         </section>
         <!-- Education-->
