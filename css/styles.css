@@ -40,6 +40,39 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+.highlight code, .highlight pre {
+  color:#f8f8f7;
+  background-color:#3f3f3f;
+  }
+  
+.highlight .hll { background-color: #b3b3b3 }
+.highlight .c { color: #40ac40; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { color: #4090eb; font-weight: bold } /* Keyword */
+.highlight .o { color: #b6861e; font-weight: bold } /* Operator */
+.highlight .cm { color: #40ac40; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #40ac40; font-weight: bold; font-style: italic } /* Comment.Preproc */
+.highlight .c1 { color: #40ac40; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #40ac40; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .ge { color: #000000; font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #000000 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .go { color: #000000 } /* Generic.Output */
+.highlight .gp { color: #000000 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { color: #000000; font-weight: bold } /* Keyword.Constant */
+.highlight .bp { color: #bd68c0 ; font-weight: bold } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #199292 } /* Literal.Number.Integer.Long */
+.highlight .nn { color: #4093ac } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
 
 *,
 *::before,

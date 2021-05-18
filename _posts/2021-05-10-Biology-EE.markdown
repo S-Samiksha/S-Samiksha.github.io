@@ -32,4 +32,4 @@ In summary, through this research it was found out that:
 5. As the concentration of neem increases, Abnormal Mitotic Index for the set-up with H<sub>2</sub>O<sub>2</sub> decreases with a     larger extent compared to the Abnormal Mitotic Index in set-up without H<sub>2</sub>O<sub>2</sub>
 6. To add on, the Abnormal Mitotic Index is higher than the Mitotic Index in both set-ups without or with H<sub>2</sub>O<sub>2</sub>.
 
-For further details, here is the pdf: <a href="/assets/Biology_EE.pdf">Biology EE.pdf</a>
+For further details, here is the pdf: <a href="/assets/Biology_EE.pdf.pdf">Biology EE.pdf</a>
