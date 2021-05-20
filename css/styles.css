@@ -10155,7 +10155,7 @@ header.masthead .masthead-heading {
   .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
-    padding: 0 5px 0px 0px;
+    padding: 0 30px 0px 0px;
   }
 
   .timeline:before {
@@ -10190,7 +10190,8 @@ header.masthead .masthead-heading {
   }
   .timeline .timeline-body > ul,
   .timeline .timeline-body > p {
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
