@@ -10151,11 +10151,12 @@ header.masthead .masthead-heading {
 }
 
 /*Utilizes bootstrap 4 to change the way the website behaves given different screen measurements, ensures alignment*/
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
-    padding: 0 80px 0px 0px;
+    padding: 0 150px 0px 5px;
+    font-size: 20px;
   }
 
   .timeline:before {
@@ -10167,8 +10168,8 @@ header.masthead .masthead-heading {
   }
   .timeline > li .timeline-panel {
     float: left;
-    width: 41%;
-    padding: 0 20px 20px 30px;
+    width: 50%;
+    padding: 0 0px 20px 0px;
     text-align: right;
   }
   .timeline > li .timeline-image {
@@ -10195,6 +10196,13 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
+  .timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+    padding: 0 0px 0px 0px;
+    font-size: 27px;
+  }
+
   .timeline:before {
     left: 50%;
   }
@@ -10205,7 +10213,7 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-panel {
     float: left;
     width: 41%;
-    padding: 0 0px 20px 30px;
+    padding: 0 0px 20px 50px;
     text-align: right;
   }
   .timeline > li .timeline-image {
