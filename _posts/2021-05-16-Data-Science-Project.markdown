@@ -342,6 +342,7 @@ I also want to thank my group members, Fathima and Gideon, who have worked with 
 
 ## References:
 
+<p>
 Olist, “Brazilian E-Commerce Public Dataset by Olist,” 
 Kaggle, 29-Nov-2018. [Online]. 
 Available: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_orders_dataset.csv. 
@@ -409,4 +410,4 @@ Available: https://towardsdatascience.com/optimizing-hyperparameters-in-random-f
 “sklearn.ensemble.randomforestclassifier¶.” [Online]. 
 Available: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html. 
 [Accessed: 21-Apr-2021]. 
-
+</p>
