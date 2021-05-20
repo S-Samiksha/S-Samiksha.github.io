@@ -10152,6 +10152,12 @@ header.masthead .masthead-heading {
 
 /*Utilizes bootstrap 4 to change the way the website behaves given different screen measurements, ensures alignment*/
 @media (min-width: 320px) {
+  .timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+    padding: 0 5px 0px 0px;
+  }
+
   .timeline:before {
     left: 50%;
   }
@@ -10179,12 +10185,12 @@ header.masthead .masthead-heading {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
-    padding: 0 30px 20px 20px;
+    padding: 0 30px 20px 10px;
     text-align: left;
   }
   .timeline .timeline-body > ul,
   .timeline .timeline-body > p {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 }
 
