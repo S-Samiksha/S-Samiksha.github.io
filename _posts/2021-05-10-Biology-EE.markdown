@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: Junior College Biology Extended Essay
+title: "International Baccalaureate: Biology Extended Essay"
 date: 2021-05-10 16:29:48 +0800  
 permalink: "/BiologyExtendedEssay"
 image: /assets/img/portfolio/02-full.jpg

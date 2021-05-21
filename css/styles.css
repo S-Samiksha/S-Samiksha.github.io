@@ -2737,16 +2737,9 @@ textarea.form-control {
 
 .btn-link {
   border-radius: 0;
-  background-color: #243dac;
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  cursor: pointer;
+  color: #293492;
+  text-decoration: underline;
+
 }
 .btn-link:hover {
   color: #209fda;

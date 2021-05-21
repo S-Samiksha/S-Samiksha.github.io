@@ -1,6 +1,6 @@
 ---
 layout: pages
-title:  Predicting Customer Satisfaction
+title:  "Data Science Project: Predicting Customer Satisfaction"
 date:   2021-05-15 16:29:48 +0800 
 permalink: "/DataScienceProject"
 image: /assets/img/portfolio/01-full.jpg
