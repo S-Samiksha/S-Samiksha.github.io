@@ -263,6 +263,16 @@ label {
 
 button {
   border-radius: 0;
+  background-color: #243dac;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 button:focus:not(:focus-visible) {
@@ -588,12 +598,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 900px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 900px;
   }
 }
 .row {
@@ -2726,9 +2736,17 @@ textarea.form-control {
 }
 
 .btn-link {
-  font-weight: 400;
-  color: #209fda;
+  border-radius: 0;
+  background-color: #243dac;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 .btn-link:hover {
   color: #209fda;
