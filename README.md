@@ -1,5 +1,4 @@
-https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fgithub.com%2FS-Samiksha%2FS-Samiksha.github.io
-
+![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fgithub.com%2FS-Samiksha%2FS-Samiksha.github.io)
 ---
 
 # S-Samiksha.github.io
