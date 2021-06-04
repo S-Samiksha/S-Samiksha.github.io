@@ -1723,6 +1723,7 @@ pre code {
   color: #fff;
   background-color: #343a40;
   border-color: #343a40;
+  margin-bottom: 1rem;
 }
 .btn-dark:hover {
   color: #fff;
