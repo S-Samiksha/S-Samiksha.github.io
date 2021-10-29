@@ -3,9 +3,8 @@
 
 ---
 # S-Samiksha.github.io
-I am Samiksha. I am currently a Year 1 Student studying a double degree in Computer Science and Economics at Nanyang Technological University(Singapore). I will be embarking on my second year this coming August. 
-
-This website was made using HTML, CSS, Jekyll and Github Pages.
+I am Samiksha. I am currently a Year 2 Student studying a double degree in Computer Science and Economics at Nanyang Technological University(Singapore). 
+This website was made using HTML, CSS, JavaScript Jekyll and Github Pages.
 
 Design taken from: https://startbootstrap.com/theme/agency. 
 
